@@ -68,7 +68,7 @@ ethernaut-foundry-solutions/
 ## 📚 Solutions
 
 | # | Level | Vulnerability | Foundry Test | Solution | Difficulty | Blog |
-|---|-------|--------------|------------|------|
+|---|-------|---------------|--------------|----------|------------|------|
 | 01 | [Fallback](./src/ethernaut-001-fallback/) | Weak `receive()` logic | [Test](./test/ethernaut-001-fallback/Fallback.t.sol) | [Solution](./soln/ethernaut-001-fallback.js) | 🟢 Easy | Coming soon |
 | 02 | [Fallout](./src/ethernaut-002-fallout/) | Typo in constructor name | [Test](./test/ethernaut-002-fallout/Fallout.t.sol) | [Solution](./soln/ethernaut-002-fallout.js) | 🟢 Easy | Coming soon |
 | 03 | [CoinFlip](./src/ethernaut-003-coin-flip/) | Predictable randomness | [Test](./test/ethernaut-003-coin-flip/CoinFlip.t.sol) | [Solution](./soln/ethernaut-003-coin-flip.sol) | 🟡 Medium | Coming soon |
