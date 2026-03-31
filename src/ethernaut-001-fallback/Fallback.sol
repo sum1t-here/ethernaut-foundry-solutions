@@ -39,7 +39,7 @@ contract Fallback {
         payable(owner).transfer(address(this).balance);
     }
 
-    // @issue: anybody who has previously contributed can become owner
+    // @issue: anybody who has contributed can become owner
     // bypassing the check in contribute function
     receive() external payable {
         require(msg.value > 0 && contributions[msg.sender] > 0);
