@@ -67,16 +67,17 @@ ethernaut-foundry-solutions/
 
 ## 📚 Solutions
 
-| # | Level | Vulnerability | Foundry Test | Solution | Difficulty | Blog |
+| # | Level | Vulnerability | Foundry Test | Solution | Difficulty | Walkthrough |
 |---|-------|---------------|--------------|----------|------------|------|
-| 01 | [Fallback](./src/ethernaut-001-fallback/) | Weak `receive()` logic | [Test](./test/ethernaut-001-fallback/Fallback.t.sol) | [Solution](./soln/ethernaut-001-fallback.js) | 🟢 Easy | Coming soon |
-| 02 | [Fallout](./src/ethernaut-002-fallout/) | Typo in constructor name | [Test](./test/ethernaut-002-fallout/Fallout.t.sol) | [Solution](./soln/ethernaut-002-fallout.js) | 🟢 Easy | Coming soon |
-| 03 | [CoinFlip](./src/ethernaut-003-coin-flip/) | Predictable randomness | [Test](./test/ethernaut-003-coin-flip/CoinFlip.t.sol) | [Solution](./soln/ethernaut-003-coin-flip.sol) | 🟡 Medium | Coming soon |
-| 04 | [Telephone](./src/ethernaut-004-telephone/) | `tx.origin` auth bypass | [Test](./test/ethernaut-004-telephone/Telephone.t.sol) | [Solution](./soln/ethernaut-004-telephone.sol) | 🟢 Easy | Coming soon |
-| 05 | [Token](./src/ethernaut-005-token/) | Integer overflow | [Test](./test/ethernaut-005-token/Token.t.sol) | [Solution](./soln/ethernaut-005-token.js) | 🟢 Easy | Coming soon |
-| 06 | [Delegation](./src/ethernaut-006-delegation/) | Delegatecall storage collision | [Test](./test/ethernaut-006-delegation/Delegation.t.sol) | [Solution](./soln/ethernaut-006-delegation.js) | 🟢 Easy | Coming soon |
-| 07 | [Force](./src/ethernaut-007-force/) | Selfdestruct | [Test](./test/ethernaut-007-force/Force.t.sol) | [Solution](./soln/ethernaut-007-force.sol) | 🟢 Easy | Coming soon |
-| 08 | [Vault](./src/ethernaut-008-vault/) | Storing private variable | [Test](./test/ethernaut-008-vault/Vault.t.sol) | [Solution](./soln/ethernaut-008-vault.js) | 🟢 Easy | Coming soon |
+| 01 | [Fallback](./src/ethernaut-001-fallback/) | Weak `receive()` logic | [Test](./test/ethernaut-001-fallback/Fallback.t.sol) | [Solution](./soln/ethernaut-001-fallback.js) | 🟢 Easy | [Link](./src/ethernaut-001-fallback/notes.md) |
+| 02 | [Fallout](./src/ethernaut-002-fallout/) | Typo in constructor name | [Test](./test/ethernaut-002-fallout/Fallout.t.sol) | [Solution](./soln/ethernaut-002-fallout.js) | 🟢 Easy | [Link](./src/ethernaut-002-fallout/notes.md) |
+| 03 | [CoinFlip](./src/ethernaut-003-coin-flip/) | Predictable randomness | [Test](./test/ethernaut-003-coin-flip/CoinFlip.t.sol) | [Solution](./soln/ethernaut-003-coin-flip.sol) | 🟡 Medium | [Link](./src/ethernaut-003-coin-flip/notes.md) |
+| 04 | [Telephone](./src/ethernaut-004-telephone/) | `tx.origin` auth bypass | [Test](./test/ethernaut-004-telephone/Telephone.t.sol) | [Solution](./soln/ethernaut-004-telephone.sol) | 🟢 Easy | [Link](./src/ethernaut-004-telephone/notes.md) |
+| 05 | [Token](./src/ethernaut-005-token/) | Integer overflow | [Test](./test/ethernaut-005-token/Token.t.sol) | [Solution](./soln/ethernaut-005-token.js) | 🟢 Easy | [Link](./src/ethernaut-005-token/notes.md) |
+| 06 | [Delegation](./src/ethernaut-006-delegation/) | Delegatecall storage collision | [Test](./test/ethernaut-006-delegation/Delegation.t.sol) | [Solution](./soln/ethernaut-006-delegation.js) | 🟢 Easy | [Link](./src/ethernaut-006-delegation/notes.md) |
+| 07 | [Force](./src/ethernaut-007-force/) | Selfdestruct | [Test](./test/ethernaut-007-force/Force.t.sol) | [Solution](./soln/ethernaut-007-force.sol) | 🟢 Easy | [Link](./src/ethernaut-007-force/notes.md) |
+| 08 | [Vault](./src/ethernaut-008-vault/) | Storing private variable | [Test](./test/ethernaut-008-vault/Vault.t.sol) | [Solution](./soln/ethernaut-008-vault.js) | 🟢 Easy | [Link](./src/ethernaut-008-vault/notes.md) |
+| 09 | [King](./src/ethernaut-009-king/) | Reentrancy | [Test](./test/ethernaut-009-king/King.t.sol) | [Solution](./soln/ethernaut-009-king.js) | 🟢 Easy | [Link](./src/ethernaut-009-king/notes.md) |
 
 ---
 
