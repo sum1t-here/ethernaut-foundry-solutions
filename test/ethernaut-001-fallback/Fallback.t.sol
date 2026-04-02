@@ -20,8 +20,8 @@ contract FallbackTest is Test {
         vm.startPrank(attacker);
 
         // contribute
-        // fallback_contract.contribute{value: 0.0000001 ether}();
-        // assertGt(fallback_contract.getContribution(), 0, "Contribution failed");
+        fallback_contract.contribute{value: 0.0000001 ether}();
+        assertGt(fallback_contract.getContribution(), 0, "Contribution failed");
 
         // call receive function
         (bool success,) = address(fallback_contract).call{value: 0.0000001 ether}("");

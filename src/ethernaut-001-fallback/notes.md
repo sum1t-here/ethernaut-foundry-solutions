@@ -32,5 +32,5 @@ But if you dive deep into the contract, you can see that there is a receive func
 
 Well, this is interesting. 
 
-If we send ether to the contract without calling any function, the receive function will be called. And we can become the owner of the contract by sending ether to the contract without calling any function bypassing the require check in the contribute function.
+If we send ether to the contract without calling any function after the first contribution, the receive function will be called. And we can become the owner of the contract by sending ether to the contract without calling any function bypassing the require check in the contribute function.
 
